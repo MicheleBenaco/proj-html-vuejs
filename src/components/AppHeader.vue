@@ -1,7 +1,12 @@
 <template>
     <div>
-      <AppNavbar/>
-      <AppJumbo/>
+        <div class="">
+        <AppNavbar/>
+        </div>
+      <div class="">
+       <AppJumbo/>
+      </div>
+     
 
     </div>
 </template>
