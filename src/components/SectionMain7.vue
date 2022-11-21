@@ -1,40 +1,37 @@
 <template>
-    <section class="section">
-        <div class="row">
-            <div class="col-7 right-cont ">
-                <img src="../assets/img/slider32x.jpg" alt="">
-                <h4 class="">california rols - $22</h4>
+    <div class="row">
+        <div class=" col-xll-7 col-xl-9 col-lg-12 col-md-12 col-sm-12 col-xs-12  right-cont ">
+                <img src="../assets/img/slider72x-scaled.jpg" alt="">
            </div>
-           <div class="col-5 left-cont pt-5 ">
+           <div class=" col-xll-5 col-xl-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 left-cont pt-5 ">
                 <div class="container-scritte">
                     <h3>The best table in toen </h3>
-                    <h1> THE BEST TABLE IN <br> TOWN</h1>
+                    <h1> TAKEOUT NOW AVAILABLE</h1>
+                    
                     <p>Pellentsque vitae viverra rius,sagittis. <br>
                         Venenatis ridiculus scelerisque nisi un urna nulla. <br>
                         sit tempor a et nisl, ac felis.
                     </p>
-                    <a class="button" href="">Explore the menu </a>
+                    <a class="button" href="">read full article</a>
                   
                     
                 </div>
-           </div>   
-
-
-        </div>
-    </section>
+                
+            </div>
+        
+    </div>
 </template>
 
 <script>
     export default {
-        name:'SectionMain3'
+        name:'SectionMain7'
     }
 </script>
 
 <style lang="scss" scoped>
-
 .left-cont{
         // padding: 0;
-        margin: 0;
+        width: calc(100% /2);
         background-color:rgb(3, 3, 3);
         color: white;
         display: flex;
@@ -51,7 +48,7 @@
             }
             h1{
                 text-transform: uppercase;
-                font-size: 80px;
+                font-size: 40px;
                 padding-top: 10px;
             }
              
@@ -81,6 +78,7 @@
         padding: 0;
         margin: 0;
         position: relative;
+        width: calc(100% /2);
 
         h4{
             color: white;
@@ -100,7 +98,6 @@
         padding: 0;
         margin: 0;
     }
-    section{
-        padding-top: 150px;
-    }
+
+
 </style>

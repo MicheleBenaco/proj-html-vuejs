@@ -1,7 +1,7 @@
 <template>
     <jumbotron class="jumbo">
            <div class="row">
-            <div class="col-5 left-cont pt-5 ">
+            <div class=" col-xll-6 col-xl-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 left-cont pt-5 ">
                 <div class="container-scritte">
                     <h3>The best table in toen </h3>
                     <h1> FINE DINING</h1>
@@ -17,7 +17,7 @@
                 
             </div>
 
-           <div class="col-7 right-cont ">
+           <div class=" col-xll-6 col-xl-9 col-lg-12 col-md-12 col-sm-12 col-xs-12  right-cont ">
                 <img src="../assets/img/slider52x.jpg" alt="">
                 <h4 class="">california rols - $22</h4>
            </div>
@@ -44,10 +44,10 @@
         color: white;
         display: flex;
         justify-content: center;
+        align-items: center;
         
 
         .container-scritte{
-            padding: 40% 0;
             text-align: start;
             h3{
                 text-transform: uppercase;
