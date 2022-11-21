@@ -1,11 +1,14 @@
 <template>
-    <jumbotron class="jumbo">
-           <div class="row">
-            <div class="col-5 left-cont pt-5 ">
+    <section class="section">
+        <div class="row">
+            <div class="col-7 right-cont ">
+                <img src="../assets/img/slider32x.jpg" alt="">
+                <h4 class="">california rols - $22</h4>
+           </div>
+           <div class="col-5 left-cont pt-5 ">
                 <div class="container-scritte">
                     <h3>The best table in toen </h3>
-                    <h1> FINE DINING</h1>
-                    <h1> EXPERIENCE</h1>
+                    <h1> THE BEST TABLE IN <br> TOWN</h1>
                     <p>Pellentsque vitae viverra rius,sagittis. <br>
                         Venenatis ridiculus scelerisque nisi un urna nulla. <br>
                         sit tempor a et nisl, ac felis.
@@ -14,30 +17,22 @@
                   
                     
                 </div>
-                
-            </div>
+           </div>   
 
-           <div class="col-7 right-cont ">
-                <img src="../assets/img/slider52x.jpg" alt="">
-                <h4 class="">california rols - $22</h4>
-           </div>
 
-            
-           </div>
-    </jumbotron>
+        </div>
+    </section>
 </template>
 
 <script>
     export default {
-        name:'AppJumbo'
+        name:'SectionMain3'
     }
 </script>
 
 <style lang="scss" scoped>
 
-.jumbo{
-
-    .left-cont{
+.left-cont{
         // padding: 0;
         margin: 0;
         background-color:rgb(3, 3, 3);
@@ -105,6 +100,7 @@
         padding: 0;
         margin: 0;
     }
-}
-
+    section{
+        padding-top: 150px;
+    }
 </style>
