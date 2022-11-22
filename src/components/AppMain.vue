@@ -44,8 +44,10 @@ import SectionMain9 from './SectionMain9.vue';
 }
 </script>
 
-<style lang="scss" scoped>
 
+<style lang="scss" >
+@use '../assets/styles/partials/_variables.scss' as*;
+@use '../assets/styles/main.scss' as*;
     main{
             padding-top: 100px;
 
