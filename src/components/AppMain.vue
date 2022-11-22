@@ -15,7 +15,16 @@
     <div class="container space">
         <SectionMain6/>
     </div>
-    <SectionMain7/>
+    <div class="space">
+     <SectionMain7/>
+    </div>
+   
+    <div class="space">
+    <SectionMain8/>
+    </div>
+    <div>
+        <SectionMain9/>
+    </div>
 </template>
 
 <script>
@@ -26,10 +35,12 @@ import SectionMain4 from './SectionMain4.vue';
 import SectionMain5 from './SectionMain5.vue';
 import SectionMain6 from './SectionMain6.vue';
 import SectionMain7 from './SectionMain7.vue';
+import SectionMain8 from './SectionMain8.vue';
+import SectionMain9 from './SectionMain9.vue';
 
     export default {
     neme: "AppMain",
-    components: { SectionMain1, SectionMain2, SectionMain3, SectionMain4, SectionMain5, SectionMain6, SectionMain7 }
+    components: { SectionMain1, SectionMain2, SectionMain3, SectionMain4, SectionMain5, SectionMain6, SectionMain7, SectionMain8, SectionMain9 }
 }
 </script>
 

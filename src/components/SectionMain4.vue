@@ -131,14 +131,7 @@
         margin: 0;
         position: relative;
         width: calc(100% /2);
-        h4{
-            color: white;
-            position: absolute;
-            left:330px;
-            bottom: -830px;
-            text-transform: uppercase;
-            font-size: 15px;
-        }
+        
 
 
     }
@@ -155,6 +148,7 @@
     margin-top: 50px;
     background-image: url(../assets/img/info52x.jpg);
     background-size: 600px;
+    background-repeat: no-repeat;
     height: 660px;
     display: flex;
     align-items: center;
@@ -203,6 +197,7 @@
 .card-right{
     margin-top: 50px;
     background-image: url(../assets/img/info12x.jpg);
+    background-repeat: no-repeat;
     background-size: 600px;
     height: 660px;
     display: flex;

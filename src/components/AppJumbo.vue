@@ -1,7 +1,7 @@
 <template>
     <jumbotron class="jumbo">
            <div class="row">
-            <div class=" col-xll-6 col-xl-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 left-cont pt-5 ">
+            <div class=" col-xll-5 col-xl-5 col-lg-12 col-md-12 col-sm-12 col-xs-12 left-cont pt-5 ">
                 <div class="container-scritte">
                     <h3>The best table in toen </h3>
                     <h1> FINE DINING</h1>
@@ -17,9 +17,9 @@
                 
             </div>
 
-           <div class=" col-xll-6 col-xl-9 col-lg-12 col-md-12 col-sm-12 col-xs-12  right-cont ">
-                <img src="../assets/img/slider52x.jpg" alt="">
-                <h4 class="">california rols - $22</h4>
+           <div class=" col-xll-7 col-xl-7 col-lg-12 col-md-12 col-sm-12 col-xs-12  right-cont ">
+               
+               
            </div>
 
             
@@ -85,17 +85,12 @@
     .right-cont{
         padding: 0;
         margin: 0;
-        position: relative;
+        background-image: url(../assets/img/slider52x.jpg);
+        background-size: 1500px;
+        background-repeat: no-repeat;
+        height: 1000px;
 
-        h4{
-            color: white;
-            position: absolute;
-            left:330px;
-            bottom: -830px;
-            text-transform: uppercase;
-            font-size: 15px;
-        }
-
+        
 
     }
 
