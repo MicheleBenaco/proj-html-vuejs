@@ -31,7 +31,7 @@
                             Venenatis ridiculus scelerisque nisi un urna nulla. <br>
                             sit tempor a et nisl, ac felis.
                         </p>
-                    <a class="button" href="">read full article</a>
+                    <a class="button-card" href="">read full article</a>
                   
                             
 
@@ -49,7 +49,7 @@
                             Venenatis ridiculus scelerisque nisi un urna nulla. <br>
                             sit tempor a et nisl, ac felis.
                         </p>
-                    <a class="button" href="">read full article</a>
+                    <a class="button-card" href="">read full article</a>
                   
                             
 
@@ -123,19 +123,37 @@
                 
             }
             
+
+
+            
         }
+
+      
+
+       
     }
+
+    .left-cont{
+    transition: transform .2s;
+}
+
+.left-cont:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
+
 
     .right-cont{
         padding: 0;
         margin: 0;
         position: relative;
         width: calc(100% /2);
-        
-
-
     }
 
+   
 
     img{
         width: 100%;
@@ -177,7 +195,7 @@
                 
             }
             
-            .button{
+            .button-card{
                 color: white;
                 text-decoration: none;
                 text-align: center;
@@ -185,9 +203,13 @@
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;
-
                 
             }
+
+            .button-card:hover {
+                     background-color:black;
+                     transition: 0.7s;
+                  }
     }
     
     
@@ -227,7 +249,7 @@
                 
             }
             
-            .button{
+            .button-card{
                 color: white;
                 text-decoration: none;
                 text-align: center;
@@ -238,6 +260,10 @@
 
                 
             }
+            .button-card:hover {
+                     background-color:black;
+                     transition: 0.7s;
+                  }
     }
    
 }

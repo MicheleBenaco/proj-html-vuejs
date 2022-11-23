@@ -65,6 +65,11 @@
 
                 
             }
+            .button:hover {
+                     background-color:white;
+                     color: black;
+                     transition: 0.7s;
+                  }
         }
     }
 }

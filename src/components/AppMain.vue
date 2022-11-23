@@ -7,7 +7,7 @@
     <SectionMain3/>
     <main>
         <div class="text-center">
-            <h1>What Critics are saying about us </h1>
+            <h1 class="">What Critics are saying about us </h1>
         </div>
         <SectionMain4/>
     </main>

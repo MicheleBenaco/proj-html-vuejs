@@ -5,8 +5,12 @@
 	 @import '@fortawesome/fontawesome-free/scss/solid.scss';
 
 	@import 'bootstrap/scss/bootstrap';
+    @import 'animate.css';
+    @import 'aos/dist/aos.css'; 
+
 
     body{
         background-color:rgb(255, 255, 255) ;
         color: rgb(3, 3, 3);
+
     }

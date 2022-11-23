@@ -1,5 +1,5 @@
 <template>
-    <section class="section">
+    <section class="section fade-in">
         <div class="row">
             <div class="col-7 right-cont ">
                 <img src="../assets/img/slider32x.jpg" alt="">
@@ -28,7 +28,11 @@
     export default {
         name:'SectionMain3'
     }
+    
+
+
 </script>
+
 
 <style lang="scss" scoped>
 
@@ -73,6 +77,12 @@
 
                 
             }
+
+            .button:hover {
+                     background-color:#f1f2f5;
+                     color: black;
+                     transition: 0.7s;
+                  }
             
         }
     }
@@ -102,5 +112,6 @@
     }
     section{
         padding-top: 150px;
+
     }
 </style>
