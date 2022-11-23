@@ -90,18 +90,7 @@
     .right-cont{
         padding: 0;
         margin: 0;
-        position: relative;
-
-        h4{
-            color: #8B321C;
-            position: absolute;
-            left:330px;
-            bottom: -830px;
-            text-transform: uppercase;
-            font-size: 15px;
-        }
-
-
+        
     }
 
 
@@ -109,6 +98,8 @@
         width: 100%;
         padding: 0;
         margin: 0;
+        height: 1000px;
+        object-fit: cover;
     }
     section{
         padding-top: 150px;

@@ -168,7 +168,9 @@
                 a{
                     text-decoration: none;
                     text-transform: uppercase;
-                    color: #8B321C
+                    color: #8B321C;
+                    font-weight: 700;
+                    
                 }
            }
             
