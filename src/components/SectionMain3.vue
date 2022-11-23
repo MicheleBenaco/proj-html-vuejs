@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-7 right-cont ">
                 <img src="../assets/img/slider32x.jpg" alt="">
-                <h4 class="">california rols - $22</h4>
+                
            </div>
            <div class="col-5 left-cont pt-5 ">
                 <div class="container-scritte">
@@ -40,7 +40,7 @@
         // padding: 0;
         margin: 0;
         background-color:rgb(3, 3, 3);
-        color: white;
+        color: #8B321C;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -67,10 +67,10 @@
             }
             
             .button{
-                color: white;
+                color: #8B321C;
                 text-decoration: none;
                 text-align: center;
-                border: 1px solid white;
+                border: 1px solid #8B321C;
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;
@@ -79,7 +79,7 @@
             }
 
             .button:hover {
-                     background-color:#f1f2f5;
+                     background-color:#8B321C;
                      color: black;
                      transition: 0.7s;
                   }
@@ -93,7 +93,7 @@
         position: relative;
 
         h4{
-            color: white;
+            color: #8B321C;
             position: absolute;
             left:330px;
             bottom: -830px;

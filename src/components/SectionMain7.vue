@@ -33,7 +33,7 @@
         // padding: 0;
         width: calc(100% /2);
         background-color:rgb(3, 3, 3);
-        color: white;
+        color: #8B321C;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -60,10 +60,10 @@
             }
             
             .button{
-                color: white;
+                color: #8B321C;
                 text-decoration: none;
                 text-align: center;
-                border: 1px solid white;
+                border: 1px solid #8B321C;
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;
@@ -71,7 +71,7 @@
                 
             }
             .button:hover {
-                     background-color:white;
+                     background-color:#8B321C;
                      color: black;
                      transition: 0.7s;
                   }
@@ -86,7 +86,7 @@
         width: calc(100% /2);
 
         h4{
-            color: white;
+            color: #8B321C;
             position: absolute;
             left:330px;
             bottom: -830px;

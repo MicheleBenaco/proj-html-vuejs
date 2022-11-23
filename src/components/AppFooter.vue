@@ -52,7 +52,7 @@
        .cont-scritta{
             padding-top: 50px;
         margin: 0 auto;
-        color: white;
+        color:#8B321C;
         width: 500px;
        }
         
@@ -67,7 +67,7 @@
         width: 100%;
         background-color: black;
         min-height: 200px;
-        color: white;
+        color: #8B321C;
         
         h6{
             font-size: 15px;

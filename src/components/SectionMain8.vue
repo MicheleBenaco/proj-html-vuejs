@@ -122,14 +122,14 @@
         max-width: 2000px;
         padding: 80px;
         .card{
-        background-color: rgb(234, 229, 229);
+        background-color: #8B321C;
         width: calc(100% / 3);
         height: 1000px;
            
     }
 
     .center-card{
-        color: white;
+        color: #8B321C;
         height: 1000px;
         width: calc(100% / 3);
         margin-top: -60px ;

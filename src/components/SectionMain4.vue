@@ -84,7 +84,7 @@
         // padding: 0;
         margin: 0;
         background-color:rgb(3, 3, 3);
-        color: white;
+        color: #8B321C;
         display: flex;
         justify-content: center;
         width: calc(100% /2);
@@ -112,10 +112,10 @@
             }
             
             .button{
-                color: white;
+                color: #8B321C;
                 text-decoration: none;
                 text-align: center;
-                border: 1px solid white;
+                border: 1px solid #8B321C;
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;
@@ -177,29 +177,29 @@
             h3{
                 text-transform: uppercase;
                 font-size: 15px;
-                color: white;
+                color: #8B321C;
               
             }
             h1{
                 text-transform: uppercase;
                 font-size: 35px;
                 padding-top: 10px;
-                color: white;
+                color: #8B321C;
             }
              
             p{
                 overflow-wrap: initial;
                 padding-top: 20px;
                 padding-bottom: 30px;
-                color: white;
+                color: #8B321C;
                 
             }
             
             .button-card{
-                color: white;
+                color: #8B321C;
                 text-decoration: none;
                 text-align: center;
-                border: 1px solid white;
+                border: 1px solid #8B321C;
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;
@@ -231,29 +231,29 @@
             h3{
                 text-transform: uppercase;
                 font-size: 15px;
-                color: white;
+                color: #8B321C;
               
             }
             h1{
                 text-transform: uppercase;
                 font-size: 35px;
                 padding-top: 10px;
-                color: white;
+                color: #8B321C;
             }
              
             p{
                 overflow-wrap: initial;
                 padding-top: 20px;
                 padding-bottom: 30px;
-                color: white;
+                color: #8B321C;
                 
             }
             
             .button-card{
-                color: white;
+                color: #8B321C;
                 text-decoration: none;
                 text-align: center;
-                border: 1px solid white;
+                border: 1px solid #8B321C;
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;

@@ -39,7 +39,7 @@
 
     .main-cont{
         background-color: black;
-        color: white;
+        color: #8B321C;
         max-width:600px;
         height: 700px;
         margin: 200px;
@@ -55,10 +55,10 @@
                 font-size: 20px;
             }
             .button{
-                color: white;
+                color: #8B321C;
                 text-decoration: none;
                 text-align: center;
-                border: 1px solid white;
+                border: 1px solid #8B321C;
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;
@@ -66,7 +66,7 @@
                 
             }
             .button:hover {
-                     background-color:white;
+                     background-color:#8B321C;
                      color: black;
                      transition: 0.7s;
                   }

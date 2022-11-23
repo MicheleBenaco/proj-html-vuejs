@@ -93,7 +93,7 @@
         // padding: 0;
         margin: 0;
         background-color:rgb(3, 3, 3);
-        color: white;
+        color:#8B321C;
         margin: 0 auto;
         display: flex;
         justify-content: center;
@@ -103,7 +103,6 @@
         min-width: 30%;
         max-width: 60%;
         margin-top: -300px;
-            
         }
         
 
@@ -128,10 +127,10 @@
             }
             
             .button{
-                color: white;
+                color: #8B321C;
                 text-decoration: none;
                 text-align: center;
-                border: 1px solid white;
+                border: 1px solid #8B321C;
                 padding: 10px 25px;
                 display: inline-block;
                 text-transform: uppercase;
@@ -140,7 +139,7 @@
             }
 
             .button:hover {
-                     background-color:#f1f2f5;
+                     background-color:#8B321C;
                      color: black;
                      transition: 0.7s;
                   }
@@ -169,7 +168,7 @@
                 a{
                     text-decoration: none;
                     text-transform: uppercase;
-                    color: rgb(248, 241, 241);
+                    color: #8B321C
                 }
            }
             
